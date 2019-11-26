@@ -1,0 +1,287 @@
+
+body {
+  /*width: auto;*/
+  /*background-color: #888;*/
+  /*height:4000px;*/
+  /*margin: auto;*/
+}
+
+.container {
+  width: 80%;
+  
+  margin: auto;
+  
+}
+
+.containerB {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Header */
+.header .slider {
+  background-color: #eee;
+  height: 600px;
+
+  
+  background-image: url(Banner.png);
+  background-size: cover;
+}
+
+.header .slider .intro {
+  padding-top: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+.header .slider .intro h2 {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 0 auto;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px #252f31;
+
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  padding: 5px 0;
+}
+
+.header .slider .intro p {
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px #252f31;
+  
+  padding: 5px 0;
+}
+
+.header .slider .intro button {
+  background: none;
+  color: #fff;
+ 
+  margin-top: 40px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+
+
+/* About Me */
+.about-me {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  
+}
+  
+.about-me >div{
+  
+}
+.about-me .image {
+  float: left;
+  width: 30% ;
+  
+
+}
+
+.about-me .image img {
+  max-width:70%;
+    margin: 45px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+}
+
+.about-me .info {
+  float: left;
+  width: 65%;
+  margin: 1.5% 2.5% 0 2.5%;
+}
+
+.about-me .info h2 {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 20px 0 20px 40px;
+  color: #555;
+}
+.about-me .info >p {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 0 0 10px 40px;
+}
+.about-me .info > p:last-of-type {
+  margin-top: 10px;
+
+}
+.about-me .info  p {
+  line-height: 1.5;
+  color: #888;
+}
+
+/* About Me */
+
+
+/* Portfolio */
+.portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.portfolio h2{
+  font-family: "Quicksand", Arial, sans-serif;
+  padding: 20px 0 ;
+}
+.portfolio .our-work {
+  overflow: hidden;
+}
+
+.portfolio .our-work>div {
+  float: left;
+  width: 33.333333%;
+  margin-bottom: 10px;
+}
+
+.portfolio .our-work>div img {
+  width: 92%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 10px 10px #ccc;
+}
+
+/*Portfolio */
+
+
+/* Contact Me */
+.contact-me {
+  background-color: #252f31;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.contact-me h2 {
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #fff;
+  margin-left: 40px;
+}
+
+.contact-me p , .contact-me address{
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #6A6E71;
+  margin-left: 40px;
+}
+.contact-me p strong{
+  color: #d1d6da;
+}
+
+.contact-me .info, .contact-me .form {
+  font-family: "Quicksand", Arial, sans-serif;
+  width: 45%;
+  float: left;
+}
+.contact-me .form{
+  font-family: "Quicksand", Arial, sans-serif;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+.contact-me .form label{
+  display: block;
+  color: #d1d6da;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.contact-me .form input[type="text"]{
+  color: #fff;
+  background-color:#4b5557;
+  border: 0;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.contact-me .form input[type="email"]{
+  color: #fff;
+  background-color:#4b5557;
+  border: 0;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.contact-me .form textarea{
+  color: #fff;
+  background-color:#4b5557;
+  border: 0;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.contact-me .form input[type="submit"]{
+  background-color: #191e22;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+/* Contact Me */
+
+.WorkText h2 {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 20px 0 20px 40px;
+  color: #555;
+  text-align: center;
+}
+
+.WorkText p {
+  font-family: "Quicksand", Arial, sans-serif;
+  margin: 20px 0 20px 40px;
+  color: #555;
+  margin-left: 300px; 
+  margin-right: 300px;
+}
+
+.Work img {
+  max-width:100%;
+  padding: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+   }
+
+.Work2 img {
+  max-width:50%;
+  padding: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+   }
+
+.Work3 img {
+  max-width:40%;
+  padding: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+   }
+
+.Video iframe {
+   margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+}
+
+
