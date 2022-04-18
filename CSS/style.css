@@ -60,6 +60,16 @@ body {
   padding: 5px 0;
 }
 
+.header .slider .intro a {
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px #252f31;
+  
+  padding: 5px 0;
+}
+
 .header .slider .intro button {
   background: none;
   color: #fff;
